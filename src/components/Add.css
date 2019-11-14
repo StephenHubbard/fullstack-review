@@ -1,0 +1,24 @@
+.add {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 600px;
+    justify-content: space-evenly;
+    background: #FCC173;
+    border-radius: 7px;
+    padding: 1rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.add textarea {
+    resize: none;
+}
+
+.add .img-container {
+    width: 90%;
+    height: 270px;
+    background: oldlace;
+}
